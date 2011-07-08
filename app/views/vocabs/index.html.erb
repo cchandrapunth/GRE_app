@@ -1,0 +1,31 @@
+<h1>Listing vocabs</h1>
+
+<table>
+  <tr>
+    <th>Vword</th>
+    <th>Vpron</th>
+    <th>Vtype</th>
+    <th>Vmeaning</th>
+    <th>Vsentence</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @vocabs.each do |vocab| %>
+  <tr>
+    <td><%= vocab.vword %></td>
+    <td><%= vocab.vpron %></td>
+    <td><%= vocab.vtype %></td>
+    <td><%= vocab.vmeaning %></td>
+    <td><%= vocab.vsentence %></td>
+    <td><%= link_to 'Show', vocab %></td>
+    <td><%= link_to 'Edit', edit_vocab_path(vocab) %></td>
+    <td><%= link_to 'Destroy', vocab, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Vocab', new_vocab_path %>

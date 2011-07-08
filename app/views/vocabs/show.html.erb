@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Vword:</b>
+  <%= @vocab.vword %>
+</p>
+
+<p>
+  <b>Vpron:</b>
+  <%= @vocab.vpron %>
+</p>
+
+<p>
+  <b>Vtype:</b>
+  <%= @vocab.vtype %>
+</p>
+
+<p>
+  <b>Vmeaning:</b>
+  <%= @vocab.vmeaning %>
+</p>
+
+<p>
+  <b>Vsentence:</b>
+  <%= @vocab.vsentence %>
+</p>
+
+
+<%= link_to 'Edit', edit_vocab_path(@vocab) %> |
+<%= link_to 'Back', vocabs_path %>
