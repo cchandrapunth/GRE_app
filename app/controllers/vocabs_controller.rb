@@ -7,6 +7,7 @@ class VocabsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @vocabs }
+	  format.json { render :json => @vocabs }
     end
   end
 
@@ -18,6 +19,7 @@ class VocabsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @vocab }
+	  format.json { render :json => @vocab }
     end
   end
 
