@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  vword: MyString
+  vpron: MyString
+  vtype: MyString
+  vmeaning: MyString
+  vsentence: MyString
+
+two:
+  vword: MyString
+  vpron: MyString
+  vtype: MyString
+  vmeaning: MyString
+  vsentence: MyString

@@ -1,4 +1,6 @@
 GREApp::Application.routes.draw do
+  resources :vocabs
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

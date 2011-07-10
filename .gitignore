@@ -2,5 +2,14 @@
 db/*.sqlite3
 log/*.log
 tmp/
+<<<<<<< HEAD
 .DS_Store
 app/.DS_Store
+=======
+<<<<<<< add-layout
+=======
+.DS_Store
+app/.DS_Store
+app/views/.DS_Store
+>>>>>>> local
+>>>>>>> add-layout
